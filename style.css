@@ -1,0 +1,134 @@
+/* 전체 페이지 배경 설정 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 한 줄에 3개의 섹션만 배치 */
+  gap: 10px;
+  background: #f3f3f3;
+  box-sizing: border-box;
+
+  /* 색상 컨테이너 */
+  .color-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    /* 개별 색상 블록 */
+    .color-contain {
+      position: relative;
+      width: 70%;
+      height: 90px;
+      border-radius: 50px;
+      margin-top: -20px;
+      z-index: 10;
+
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+      span {
+        position: absolute;
+        top: 1rem;
+        left: 2rem;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+      }
+    }
+
+    /* 색상별 스타일 */
+    .color-1 {
+      z-index: 1;
+    }
+    .color-2 {
+      z-index: 2;
+    }
+    .color-3 {
+      z-index: 3;
+    }
+    .color-4 {
+      z-index: 4;
+    }
+    .color-5 {
+      z-index: 5;
+    }
+    .color-6 {
+      z-index: 6;
+    }
+  }
+}
+
+/* =========== contain-1 =========== */
+#contain-1 {
+  background: linear-gradient(to bottom, #f3a972, #6c2344);
+  .color-1 {
+    background-color: #1b1931;
+  }
+  .color-2 {
+    background-color: #44174e;
+  }
+  .color-3 {
+    background-color: #662249;
+  }
+  .color-4 {
+    background-color: #a34054;
+  }
+  .color-5 {
+    background-color: #ed9e59;
+  }
+  .color-6 {
+    background-color: #e9bcb9;
+  }
+}
+
+/* =========== contain-2 =========== */
+#contain-2 {
+  background: linear-gradient(to bottom, #87aee2, #6d4474);
+
+  .color-1 {
+    background-color: #0d1e4c;
+  }
+  .color-2 {
+    background-color: #c48cb3;
+  }
+  .color-3 {
+    background-color: #e5c9d7;
+  }
+  .color-4 {
+    background-color: #83a6ce;
+  }
+  .color-5 {
+    background-color: #26415e;
+  }
+  .color-6 {
+    background-color: #0b1b32;
+  }
+}
+
+/* =========== contain-3 =========== */
+#contain-3 {
+  background: linear-gradient(to bottom, #d4a6b2, #03122f);
+
+  .color-1 {
+    background-color: #03122f;
+  }
+  .color-2 {
+    background-color: #19305c;
+  }
+  .color-3 {
+    background-color: #413b61;
+  }
+  .color-4 {
+    background-color: #ae7dac;
+  }
+  .color-5 {
+    background-color: #f3dadf;
+  }
+  .color-6 {
+    background-color: #f1916d;
+  }
+}
