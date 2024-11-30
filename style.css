@@ -132,3 +132,27 @@ body {
     background-color: #f1916d;
   }
 }
+
+/* =========== contain-4 =========== */
+#contain-4 {
+  background: linear-gradient(to bottom, #65b9b3, #031716);
+
+  .color-1 {
+    background-color: #031716;
+  }
+  .color-2 {
+    background-color: #032f30;
+  }
+  .color-3 {
+    background-color: #0a7075;
+  }
+  .color-4 {
+    background-color: #0c969c;
+  }
+  .color-5 {
+    background-color: #6ba3be;
+  }
+  .color-6 {
+    background-color: #274d60;
+  }
+}
